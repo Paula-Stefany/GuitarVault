@@ -233,3 +233,45 @@
     font-weight: 900;
     color: var(--white);
 }
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    padding: 7rem;
+    background-color: var(--gray);
+}
+
+.footer-content{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-description,
+.footer-nav{
+    font-family: var(--font-roboto);
+    font-size: var(--font-body);
+}
+
+.guitar-vault-description{
+    font-family: var(--font-roboto);
+}
+
+.guitar-vault-description,
+.footer-links,
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.footer-subtitle{
+    font-size: var(--font-medium);
+}
+
+
+.footer-links{
+    align-items: center;
+}
