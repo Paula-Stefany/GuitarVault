@@ -118,7 +118,7 @@
     width: 100%;
     background-image: url(../img/pexels-brett-sayles-1434625.jpg);
     background-size: cover;
-    padding: 16rem 0;
+    padding: 17.5rem 0;
     background-repeat: no-repeat;
 }
 
@@ -182,27 +182,49 @@
 
     /* BANNER */
 
-    .banner{
-        padding: 12rem 0;
+    .banner,
+    .banner-mark{
+        padding: 13.3rem 0;
+    }
+    
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    :root{
+        --font-title:  4.5rem; 
+        --font-medium: 2rem;
     }
 
-    .banner-text{
-        width: 100%;
-        padding: 0 3rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .banner,
+    .banner-mark{
+        padding: 14.5rem 0;
+    }
+}
+
+@media only screen and (max-width:900px){
+
+     /* MENU */
+    
+    .header-actions,
+    .header-navigation{
+        display: none;
     }
 
-    .banner-subtitle{
-        text-align: center;
+     .bars{
+        cursor: pointer;
     }
-    .banner-description{
-        text-align: center;
+
+    .bar{
+        display: block;
+        width: 28px;
+        height: 3px;
+        background: var(--white);
+        border-radius: 3px;
+        margin: 5px auto;
     }
 
     /* FOOTER */
+
     .footer-content{
         display: flex;
         flex-direction: column;
@@ -218,6 +240,20 @@
         text-align: center;
     }
 
+    .banner-subtitle{
+        text-align: center;
+    }
+    .banner-description{
+        text-align: center;
+    }
 
+    .banner-text{
+        width: 100%;
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
