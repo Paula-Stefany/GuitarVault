@@ -1,0 +1,10 @@
+.title{
+    font-family: var(--font-poppins);
+    font-size: var(--font-subtitle);
+    text-align: center; padding: 2rem; 
+}
+
+#product-content{
+    justify-content: center;
+    flex-wrap: wrap;
+}
