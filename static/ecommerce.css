@@ -11,8 +11,12 @@
 .header{
     display: flex;
     width: 100%;
-    padding: 2rem 3rem ;
+    padding: 2rem 3rem;
     justify-content: space-between;
+}
+
+.bars{
+    display: none;
 }
 
 .nav-items,
@@ -47,7 +51,7 @@
 }
 
 .nav-items li a:hover{
-    color: #c5c4c4;
+    color: var(--gray);
     cursor: pointer;
 }
 
@@ -210,8 +214,9 @@
         display: none;
     }
 
-     .bars{
+    .bars{
         cursor: pointer;
+        display: block;
     }
 
     .bar{
@@ -257,3 +262,19 @@
     }
 }
 
+@media only screen and (min-width:900px) and (max-width: 1223px){
+
+    :root{
+        --font-title:  4.2rem; 
+        --font-medium: 1.8rem;
+    }
+
+    .banner-text{
+        width: 70%;
+    }
+
+    .banner,
+    .banner-mark{
+        padding: 12.5rem 0;
+    }
+}

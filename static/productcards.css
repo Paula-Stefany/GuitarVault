@@ -42,12 +42,13 @@
 }
 
 .card-product{
-    margin: 1rem 0;
+    width: 290px;
+    margin: 1rem 0rem;
 }
 
 .product-image{
     background-image: url('../img/pexels-isaacweatherly-2156327.jpg');
-    width: 290px;
+    width: 100%;
     background-size: cover;
     background-position: center;
     height: 330px;
@@ -134,4 +135,18 @@
     .product-title{
         font-size: 2rem;
     }
+}
+
+@media only screen and (min-width: 988px) and (max-width: 1153px){
+    .card-product{
+        width: 200px;
+    }
+
+}
+
+@media only screen and (min-width: 1154px) and (max-width: 1321px){
+    .card-product{
+        width: 230px;
+    }
+
 }

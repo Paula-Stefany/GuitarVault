@@ -1,0 +1,41 @@
+main{
+    width: 100%;
+}
+
+.guitar-marks-content{
+    width: 100%;
+}
+
+.marks-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 5rem 0;
+}
+
+.card-mark{
+    width: 40%;
+}
+
+.card-image,
+.card-img{
+    width: 100%;
+}
+
+
+.content-mark-description{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.mark-description{
+    font-family: var(--font-roboto);
+    font-size: var(--font-body);
+    font-weight: 600;
+}

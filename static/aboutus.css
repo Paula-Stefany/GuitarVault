@@ -30,23 +30,24 @@
 }
 
 .content-text{
-    font-family: var(--font-roboto);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .title{
+    font-family: serif;
     font-size: var(--font-title);
     margin-bottom: 2rem;
     font-weight: 800;
-    color: rgb(87, 2, 2);
+    color: var(--black);
     filter: drop-shadow(2px 1px 1px var(--gray));
 }
 
 .content-description{
+    font-family: var(--font-roboto);
     font-size: var(--font-body);
     width: 80%;
     margin-top: 1rem;
-    color: #6c6c6c;
+    color: #676767;
 }
