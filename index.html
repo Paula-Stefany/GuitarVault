@@ -17,24 +17,27 @@
     <main>
         <div class="background-container">
             <header class="header" id="guitar-vault">
-                <nav class="header-navigation" >
-                    <ul class="nav-items">
+                <div class="header-title">
+                    <a href="#"><h1 href="#guitar-vault">Guiatar Vault</h1></a>
+                </div>
+                <nav class="navigation" id="navigation">
+                    <ul class="nav-items" id="nav-items">
                         <li><a href="#">Guitarras</a></li>
                         <li><a href="aboutus.html">Sobre nós</a></li>
+                        <li><a id="login" href="#">Login</a></li>
+                        <li><a id="cadaster" href="#">Cadastro</a></li>
                     </ul>
                 </nav>
-                <div class="header-title">
-                    <h1 href="#guitar-vault">Guiatar Vault</h1>
-                </div>
                 <nav class="header-actions">
-                    <div class="header-input">
+                    <div class="header-input" id="input-header">
                         <label for="input-nav"><i class="fa-solid fa-magnifying-glass"></i></label>
                         <input type="text" id="input-nav">
                     </div>
-                    <div class="nav-icon">
+                    <div class="nav-icon" id="nav-icon">
                         <i class="fa-regular fa-user"></i>
                         <i class="fa-solid fa-bag-shopping"></i>
                     </div>
+                    
                 </nav>
 
                 <!-- MENU MOBILE -->
@@ -288,5 +291,6 @@
             </div>
          </footer>
     </main>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -41,12 +41,16 @@
     cursor: pointer;
 }
 
+.header-title a h1{
+    font-size: var(--font-medium);
+}
+
 .header i{
     color: var(--white);
     font-size: var(--font-medium);
 }
 
-.header-navigation .nav-items{
+.navigation .nav-items{
     gap: 2.5rem;
 }
 
@@ -86,6 +90,11 @@
     cursor: pointer;
 }
 
+#login,
+#cadaster{
+    display: none;
+}
+
 /* BANNER */
 
 .banner{
@@ -102,7 +111,7 @@
     font-family: var(--font-poppins);
     font-size: var(--font-title);
     color: var(--white);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .banner-subtitle span{
@@ -179,16 +188,17 @@
     :root{
         --font-body: 1.5rem;
         --font-subtitle: 2.7rem;
-        --font-title:  3.2rem;
+        --font-title:  3.4rem;
         --font-medium: 1.9rem; 
     }
 
-
     /* BANNER */
+
+    
 
     .banner,
     .banner-mark{
-        padding: 13.3rem 0;
+        padding: 15.5rem 0;
     }
     
 }
@@ -209,9 +219,53 @@
 
      /* MENU */
     
-    .header-actions,
-    .header-navigation{
+    
+    .navigation{
         display: none;
+    }
+    
+    #login,
+    #cadaster{
+        display: block;
+    }
+
+    .header{
+        position: fixed;
+        z-index: 1000;
+        background: #3c3a3ac1;
+    }
+    
+    #nav-icon{
+        display: none;
+    }
+
+    #input-header{
+        display: none;
+    }
+
+    .navigation.active{
+        display: block;
+    }
+
+    #nav-items{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        padding: 20rem 0;
+        gap: 2;
+        top: 69px;
+        background: var(--white);
+        width: 100%;
+        height: 100vh;
+        right: 0px;
+        z-index: 1000;
+    }
+
+    #nav-items a{
+        color: black;
+        font-weight: 500;
     }
 
     .bars{
