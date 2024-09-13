@@ -41,7 +41,6 @@
     margin-bottom: 2rem;
     font-weight: 800;
     color: var(--black);
-    filter: drop-shadow(2px 1px 1px var(--gray));
 }
 
 .content-description{
@@ -50,4 +49,40 @@
     width: 80%;
     margin-top: 1rem;
     color: #676767;
+}
+
+@media only screen and (max-width: 900px){
+
+    .about-us-content{
+        padding: 7rem 0;
+        flex-direction: column;
+    }
+
+    .content-text{
+        display: block;
+    }
+
+    .content-image{
+        margin: 3rem 0;
+    }
+
+    .content-image,
+    .content-text,
+    .content-description{
+        width: 100%;   
+    }
+
+    .content-description{
+        word-spacing: 0.1rem;
+        line-height: 2rem;
+        text-align: justify;
+        margin-bottom: 2rem;
+    }
+
+    .title{
+        text-align: center;
+        font-size: var(--font-subtitle);
+    }
+
+    
 }

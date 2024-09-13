@@ -6,14 +6,50 @@
     <title>Guitar Marks</title>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/guitarmarks.css">
+    <link rel="stylesheet" href="static/header.css">
 </head>
 <body>
     <main>
+        <header class="header" id="guitar-vault">
+            <div class="header-title">
+                <a href="ecommerce.html"><h1 href="#guitar-vault">Guiatar Vault</h1></a>
+            </div>
+            <nav class="navigation" id="navigation">
+                <ul class="nav-items" id="nav-items">
+                    <li><a class="nav-item" href="guitarmarks.html">Guitarras</a></li>
+                    <li><a class="nav-item" href="aboutus.html">Sobre nós</a></li>
+                    <li><a class="nav-item" id="login" href="login.html">Login</a></li>
+                    <li><a class="nav-item" id="cadaster" href="cadaster.html">Cadastro</a></li>
+                </ul>
+            </nav>
+            <nav class="header-actions">
+                <div class="header-input" id="input-header">
+                    <label for="input-nav"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="text" id="input-nav">
+                </div>
+                <div class="nav-icon" id="nav-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                
+            </nav>
+
+            <!-- MENU MOBILE -->
+             <div class="bars" id="bars">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+             </div>
+
+        </header>
         <section class="guitar-marks-content">
+            <div class="title">
+                <h1 class="guitar-title">Guitarras</h1>
+            </div>
             <div class="marks-content">
                 <article class="card-mark">
                     <div class="card-image">
-                        <img class="card-img" src="img/pexels-meline-waxx-44315-165971.jpg">
+                        <img class="card-img" src="img/pexels-lucaspezeta-2079169.jpg">
                     </div>
                     <div class="content-mark-description">
                         <p class="mark-description">Guitarra Jansty</p>
@@ -22,7 +58,7 @@
 
                 <article class="card-mark">
                     <div class="card-image">
-                        <img class="card-img" src="img/pexels-meline-waxx-44315-165971.jpg">
+                        <img class="card-img" src="img/pexels-edwardutra-1822503.jpg">
                     </div>
                     <div class="content-mark-description">
                         <p class="mark-description">Guitarra Xiliqe</p>
@@ -30,23 +66,56 @@
                 </article>
                 <article class="card-mark">
                     <div class="card-image">
-                        <img class="card-img" src="img/pexels-meline-waxx-44315-165971.jpg">
+                        <img class="card-img" src="img/pexels-melvin-buezo-1253763-2529174.jpg">
                     </div>
                     <div class="content-mark-description">
                         <p class="mark-description">Guitarra butey</p>
                     </div>
                 </article>
+                <article class="card-mark">
+                    <div class="card-image">
+                        <img class="card-img" src="img/pexels-bertellifotografia-3374197.jpg">
+                    </div>
+                    <div class="content-mark-description">
+                        <p class="mark-description">Guitarra filet</p>
+                    </div>
+                </article>
+                <article class="card-mark">
+                    <div class="card-image">
+                        <img class="card-img" src="img/pexels-lucaspezeta-2079169.jpg">
+                    </div>
+                    <div class="content-mark-description">
+                        <p class="mark-description">Guitarra Jansty</p>
+                    </div>
+                </article>
 
                 <article class="card-mark">
                     <div class="card-image">
-                        <img class="card-img" src="img/pexels-meline-waxx-44315-165971.jpg">
+                        <img class="card-img" src="img/pexels-edwardutra-1822503.jpg">
                     </div>
                     <div class="content-mark-description">
-                        <p class="mark-description">Guitarra pipoca</p>
+                        <p class="mark-description">Guitarra Xiliqe</p>
+                    </div>
+                </article>
+                <article class="card-mark">
+                    <div class="card-image">
+                        <img class="card-img" src="img/pexels-melvin-buezo-1253763-2529174.jpg">
+                    </div>
+                    <div class="content-mark-description">
+                        <p class="mark-description">Guitarra butey</p>
+                    </div>
+                </article>
+                <article class="card-mark">
+                    <div class="card-image">
+                        <img class="card-img" src="img/pexels-bertellifotografia-3374197.jpg">
+                    </div>
+                    <div class="content-mark-description">
+                        <p class="mark-description">Guitarra filet</p>
                     </div>
                 </article>
             </div>
         </section>
     </main>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

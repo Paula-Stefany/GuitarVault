@@ -6,18 +6,53 @@
     <title>Sobre nós</title>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/aboutus.css">
+    <link rel="stylesheet" href="static/ecommerce.css">
+    <link rel="stylesheet" href="static/header.css"></link>
 </head>
 <body>
     <main>
+        <header class="header" id="guitar-vault">
+            <div class="header-title">
+                <a href="ecommerce.html"><h1 href="#guitar-vault">Guiatar Vault</h1></a>
+            </div>
+            <nav class="navigation" id="navigation">
+                <ul class="nav-items" id="nav-items">
+                    <li><a class="nav-item" href="guitarmarks.html">Guitarras</a></li>
+                    <li><a class="nav-item" href="aboutus.html">Sobre nós</a></li>
+                    <li><a class="nav-item" id="login" href="login.html">Login</a></li>
+                    <li><a class="nav-item" id="cadaster" href="cadaster.html">Cadastro</a></li>
+                </ul>
+            </nav>
+            <nav class="header-actions">
+                <div class="header-input" id="input-header">
+                    <label for="input-nav"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="text" id="input-nav">
+                </div>
+                <div class="nav-icon" id="nav-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+                
+            </nav>
+
+            <!-- MENU MOBILE -->
+             <div class="bars" id="bars">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+             </div>
+
+        </header>
         <section class="about-us-content">
             <aside class="content-image">
                 <img alt="owner-image" src="img/pexels-elina-araja-1743227-3317936.jpg" class="content-img">
             </aside>
             <article class="content-text">
                 <h1 class="title">Sobre nós</h1>
-                <p class="content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum esse omnis optio temporibus aperiam error quam debitis nemo sapiente tempore consequatur vitae, mollitia rerum fuga placeat dolorem exercitationem voluptas doloremque dolore porro quo? Eius velit quis adipisci repudiandae nam natus quod quasi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ad hic delectus et eligendi illum voluptatum suscipit sequi molestiae voluptates, quis, cumque modi earum quaerat. Labore omnis repellat nihil magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam harum nemo soluta consectetur perspiciatis molestias veniam.</p>
+                <p class="content-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum esse omnis optio temporibus aperiam error quam debitis nemo sapiente tempore consequatur vitae, mollitia rerum fuga placeat dolorem exercitationem voluptas doloremque dolore porro quo? Eius velit quis adipisci repudiandae nam natus quod quasi!</p><p class="content-description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ad hic delectus et eligendi illum voluptatum suscipit sequi molestiae voluptates, quis, cumque modi earum quaerat. Labore omnis repellat nihil magni. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam harum nemo soluta consectetur perspiciatis molestias veniam.</p>
             </article>
         </section>
     </main>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -1,9 +1,26 @@
+:root{
+    --font-body: 1.3rem;
+}
+
 main{
     width: 100%;
 }
 
 .guitar-marks-content{
     width: 100%;
+    padding: 10rem 0 2rem 0;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.guitar-title{
+    font-family: var(--font-roboto);
+    font-size: var(--font-medium);
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .marks-content{
@@ -12,19 +29,19 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.5rem;
     padding: 5rem 0;
 }
 
 .card-mark{
-    width: 40%;
+    width: 20%;
+    cursor: pointer;
 }
 
 .card-image,
 .card-img{
     width: 100%;
 }
-
 
 .content-mark-description{
     width: 100%;
@@ -37,5 +54,46 @@ main{
 .mark-description{
     font-family: var(--font-roboto);
     font-size: var(--font-body);
-    font-weight: 600;
+    color: #414040;
+    word-spacing: 0.2rem;
+}
+
+@media only screen and (max-width:600px) {
+    
+    :root{
+        --font-body: 2rem;
+    }
+
+    .card-mark{
+        width: 80%;
+    }
+
+    .marks-content{
+        width: 90%;
+        gap: 3rem;
+    }
+
+    .mark-description{
+        margin-top: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px){
+
+    .card-mark{
+        width: 40%;
+    }
+
+}
+@media only screen and (min-width: 801px) and (max-width: 1000px){
+
+    .card-mark{
+        width: 22%;
+    }
+
+    .marks-content{
+        width: 90%;
+    }
+
 }

@@ -1,7 +1,4 @@
 
-body{
-    height: 100vh;
-}
 
 .auth-content{
     width: 100%;
@@ -107,4 +104,35 @@ body{
     width: 100%;
 }
 
+@media only screen and (max-width: 900px){
 
+    #body-login{
+        height: 100vh;
+    }
+
+    .second-auth-text{
+        width: 90%;
+    }
+
+    .auth-text{
+        width: 90%;
+        padding-top: 3rem;
+    }
+
+    .input-box{
+        width: 100%;
+        margin-top: 3rem;
+    }
+
+    #container-cadaster{
+        padding: 8rem 0 2rem 0;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 901px){
+    body{
+        height: 100vh;
+    }
+}

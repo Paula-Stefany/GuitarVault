@@ -6,9 +6,42 @@
     <title>Cadaster</title>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/auth.css">
+    <link rel="stylesheet" href="static/header.css">
 </head>
 <body>
-    <div class="auth-content">
+    <header class="header" id="guitar-vault">
+        <div class="header-title">
+            <a href="ecommerce.html"><h1 href="#guitar-vault">Guiatar Vault</h1></a>
+        </div>
+        <nav class="navigation" id="navigation">
+            <ul class="nav-items" id="nav-items">
+                <li><a class="nav-item" href="guitarmarks.html">Guitarras</a></li>
+                <li><a class="nav-item" href="aboutus.html">Sobre nós</a></li>
+                <li><a class="nav-item" id="login" href="login.html">Login</a></li>
+                <li><a class="nav-item" id="cadaster" href="cadaster.html">Cadastro</a></li>
+            </ul>
+        </nav>
+        <nav class="header-actions">
+            <div class="header-input" id="input-header">
+                <label for="input-nav"><i class="fa-solid fa-magnifying-glass"></i></label>
+                <input type="text" id="input-nav">
+            </div>
+            <div class="nav-icon" id="nav-icon">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+            
+        </nav>
+
+        <!-- MENU MOBILE -->
+         <div class="bars" id="bars">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+         </div>
+
+    </header>
+    <div class="auth-content" id="container-cadaster">
         <div class="auth-text">
             <h1 class="auth-title">Cadaster</h1>
             <form class="auth-form">
@@ -53,5 +86,6 @@
             </form>
         </div>
     </div>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
