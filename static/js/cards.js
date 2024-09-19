@@ -1,20 +1,8 @@
-const bars = document.getElementById("bars");
-const nav = document.getElementById("navigation")
-
-function toogleMenu() {
-    
-    nav.classList.toggle('active');
-}
-
-bars.addEventListener("click", toogleMenu);
-
-
 /* PRODUCT CARDS 1*/
 
 const card = document.getElementById("product-cards");
 const scroollLeft = document.getElementById("left")
 const scroollRight = document.getElementById("right");
-
 
 scroollLeft.addEventListener("click", () => {
     

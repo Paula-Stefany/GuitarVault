@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     padding: 2rem 3rem;
-    justify-content: space-between;
+    background: #3c3a3ac1;
 }
 
 .bars{
@@ -29,6 +29,7 @@
     color: var(--white);
     font-family: var(--font-poppins);
     cursor: pointer;
+    margin-right: 2.5rem;
 }
 
 .header-title a h1{
@@ -61,7 +62,12 @@
     width: 18rem;
     border-bottom: 2px solid var(--white);
     margin-left: 1rem;
+    color: var(--white)
 
+}
+
+.header-actions{
+    margin-left: auto;
 }
 
 .header-input input:hover,
@@ -69,25 +75,9 @@
     border-bottom: 2px solid var(--gray);
 }
 
-.nav-icon{
-    display: flex;
-    gap: 2.5rem;
-    margin-left: 2.5rem;
-}
-
-.nav-icon i:hover{
-    color: var(--gray);
-    cursor: pointer;
-}
-
-#login,
-#cadaster{
-    display: none;
-}
-
 @media only screen and (max-width: 900px){
+
      /* MENU */
-    
     
     .navigation{
         display: none;

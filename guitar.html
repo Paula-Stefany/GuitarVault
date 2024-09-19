@@ -3,16 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GuitarMark</title>
+    <title>Guitar</title>
     <link rel="stylesheet" href="static/style.css">
     <link rel="stylesheet" href="static/productcards.css">
     <link rel="stylesheet" href="static/guitar.css">
+    <link rel="stylesheet" href="static/header.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <main>
+        <header class="header" id="guitar-vault">
+            <div class="header-title">
+                <a href="ecommerce.html"><h1>Guiatar Vault</h1></a>
+            </div>
+            <nav class="navigation" id="navigation">
+                <ul class="nav-items" id="nav-items">
+                    <li><a class="nav-item" href="guitarmarks.html">Guitarras</a></li>
+                    <li><a class="nav-item" href="aboutus.html">Sobre nós</a></li>
+                    <li><a class="nav-item" id="login" href="login.html">Login</a></li>
+                    <li><a class="nav-item" id="cadaster" href="cadaster.html">Cadastro</a></li>
+                </ul>
+            </nav>
+            <nav class="header-actions">
+                <div class="header-input" id="input-header">
+                    <label for="input-nav"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    <input type="text" id="input-nav">
+                </div>
+                
+            </nav>
+
+            <!-- MENU MOBILE -->
+             <div class="bars" id="bars">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+             </div>
+
+        </header>
         <div class="guitar-mark">
-            <h1 class="title">Guitar Jansty</h1>
+            <h1 class="title">GUITAR JANSTY</h1>
             <div class="products-content" id="product-content">
                 <article class="card-product">
                     <figure class="product-image">
@@ -196,5 +225,6 @@
             </div>
         </div>
     </main>
+    <script src="static/js/scripts.js"></script>
 </body>
 </html>

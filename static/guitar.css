@@ -5,11 +5,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10rem 0 2rem 0;;
 }
 
 .title{
-    font-family: var(--font-poppins);
-    font-size: var(--font-subtitle);
+    font-family: var(--font-roboto);
+    font-size: var(--font-medium);
     text-align: center; padding: 2rem; 
 }
 
